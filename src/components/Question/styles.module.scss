@@ -1,0 +1,26 @@
+.answers {
+  &-action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.option {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+
+  &__input {
+    margin-right: 6px;
+    cursor: pointer;
+  }
+}
+
+.counter {
+  margin-right: 16px;
+}
